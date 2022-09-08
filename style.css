@@ -7,6 +7,11 @@ body {
     background: linear-gradient(to bottom left, orange, white);
 }
 
+img {
+    width: ;
+    height: ;
+}
+
 .container {
     background-color: white;
     padding-top: 25px;
@@ -30,6 +35,10 @@ body {
     margin-right: 10px;
 }
 
+#flip:hover, #clear:hover {
+    filter: brightness(85%);
+}
+
 #clear {
     border-radius: 10px;
     letter-spacing: normal;
@@ -41,7 +50,7 @@ body {
 table {
     text-align: center;
     margin: auto;
-    outline: 1px solid orange;
+    border: 2px solid orange;
 }
 
 tr {
@@ -49,6 +58,10 @@ tr {
 }
 
 th {
+    outline: 1px solid orange;
+}
+
+td {
     outline: 1px solid orange;
 }
 
