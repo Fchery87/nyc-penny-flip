@@ -8,8 +8,8 @@ body {
 }
 
 img {
-    width: ;
-    height: ;
+    width:  300px;
+    height: 300px;
 }
 
 .container {
@@ -55,14 +55,17 @@ table {
 
 tr {
     outline: 1px solid orange;
+    margin: auto;
 }
 
 th {
     outline: 1px solid orange;
+    margin: auto;
 }
 
 td {
     outline: 1px solid orange;
+    margin: auto;
 }
 
 h2 {
